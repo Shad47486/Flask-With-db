@@ -8,5 +8,5 @@ Creating a flask with database using local db and deploying it on a flask using 
 * Flask app has /patients tab 9/24
 * Display list of pt retreived from sqlite db on local machine 9/24
 * Deploy flask on Azure or GCP 9/25
- 
+ ip address: http://35.239.123.178/patients
  #sudo nohup python3 app.py > log.txt 2>&1 & to run in backround
