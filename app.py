@@ -14,7 +14,7 @@ def get_db_connection():
     # ^ The line of code assigning sqlite3.Row to the row_factory of connection
     return conn
 
-@app.route('/patient')
+@app.route('/patients')
 def bootstrap():
     conn = get_db_connection()
     patientListSql = conn.execute('SELECT * FROM patient_table').fetchall()
